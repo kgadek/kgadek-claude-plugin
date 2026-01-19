@@ -1,0 +1,12 @@
+{
+  "name": "kg",
+  "description": "Konrad's Claude Code plugin",
+  "version": "0.0.1",
+  "author": {
+    "name": "Konrad Gądek",
+    "email": "kgadek@gmail.com",
+    "url": "https://github.com/kgadek"
+  },
+  "license": "AGPL-3.0-only",
+  "repository": "https://github.com/kgadek/kgadek-claude-plugin"
+}
