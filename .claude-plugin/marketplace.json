@@ -12,7 +12,7 @@
 
       "name": "kg",
       "description": "Konrad's Claude Code plugin",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "author": {
         "name": "Konrad Gądek",
         "email": "kgadek@gmail.com",
