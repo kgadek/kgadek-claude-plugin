@@ -2,6 +2,8 @@
 name: improve-skills
 description: Improve skill(s) by analyzing the current session.
 disable-model-invocation: true
+user-invocable: true
+argument-hint: "extra commentary"
 ---
 
 # Improve skills
