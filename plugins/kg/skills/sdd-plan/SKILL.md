@@ -205,14 +205,18 @@ Example SPEC directory, created on 2026-01-20 to implement GraphQL endpoints:
 
 ## Subagents
 
-Use the following subagents:
-- system architect (keep application well-architected, simple to reason about, easy to change)
-- backend engineer (keep backend components high-quality, stable, bug-free)
-- frontend engineer (keep frontend components high-quality, readable)
-- DX engineer (keep developer experience smooth, ensure discoverability and usability for developers)
-- QA engineer (tester, TDD practitioner, keep critical components of the application tested, keep tests small and atomic)
-- DevOps engineer / SRE (keep application easy to deploy, simple to operate)
-- security specialist (both red & blue team, keep application secure)
+The user may request a specific set of subagents.
+Otherwise select relevant 4-6 subagents for the task.
+
+The agents to chose from:
+- `architect`: system architect (keep application well-architected, simple to reason about, easy to change)
+- `backend-eng`: backend engineer (keep backend components high-quality, stable, bug-free)
+- `frontend-eng`: frontend engineer (keep frontend components high-quality, readable)
+- `dx-eng`: DX engineer (keep developer experience smooth, ensure discoverability and usability for developers)
+- `qa-eng`: QA engineer (tester, TDD practitioner, keep critical components of the application tested, keep tests small and atomic)
+- `devops-eng`: DevOps engineer / SRE (keep application easy to deploy, simple to operate)
+- `security`: security specialist (both red & blue team, keep application secure)
+- `llm-eng`: LLM agents engineer / context engineer (improve agent integration, keep application development automated)
 
 
 ## User request
