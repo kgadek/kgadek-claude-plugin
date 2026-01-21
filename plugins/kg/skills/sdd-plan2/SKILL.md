@@ -1,5 +1,5 @@
 ---
-name: sdd-plan
+name: sdd-plan2
 description: Start a SDD (Specification-Driven Development) workflow. Will use specialised subagents to create a refine and well thought-out SPEC (implementation plan).
 disable-model-invocation: false
 user-invocable: true
