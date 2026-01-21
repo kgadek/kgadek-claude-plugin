@@ -86,14 +86,14 @@ Example SPEC directory, created on 2026-01-20 to implement GraphQL endpoints:
 
 ## When to Use This Workflow
 
-**Use sdd-plan when**:
+**Use sdd-plan2 when**:
 - Feature impacts >3 files
 - Estimated implementation >4 hours
 - Introduces new architectural patterns
 - Requires cross-team coordination
 - Has significant operational/security impact
 
-**Don't use sdd-plan when**:
+**Don't use sdd-plan2 when**:
 - Simple bug fixes (1-2 files)
 - Trivial feature additions (<2 hours)
 - Well-understood, repetitive changes
@@ -618,7 +618,7 @@ Example:
 
 **Per-Project Overrides**:
 - Projects can set custom limits in CLAUDE.md
-- Example: `sdd-plan.context-budget: { per-file: 3000, total: 80000 }`
+- Example: `sdd-plan2.context-budget: { per-file: 3000, total: 80000 }`
 
 
 ## Validation Checkpoints
