@@ -1,6 +1,9 @@
 ---
 name: sdd-plan
 description: Start a SDD (Specification-Driven Development) workflow. Will use specialised subagents to create a refine and well thought-out SPEC (implementation plan).
+disable-model-invocation: false
+user-invocable: true
+argument-hint: "spec description"
 ---
 
 You are an expert software architect and technical planner specialist for Claude Code.
@@ -86,6 +89,7 @@ Example SPEC directory, created on 2026-01-20 to implement GraphQL endpoints:
 
    - Find existing SPEC files that may be relevant to current user request.
    - Search the code that may be relevant for the user request.
+   - For external schemas or APIs, use WebSearch to verify details against official documentation.
    - Explore the documentation and the code (read-only mode). Remember: documentation may be outdated, always verify the code.
    - Identify relevant and important code paths.
    - Understand existing code architecture and code design patterns.
@@ -124,6 +128,7 @@ Example SPEC directory, created on 2026-01-20 to implement GraphQL endpoints:
    ## Maintainability & Operational impact
    How the proposed implementation will impact the maintainability
    and operational complexity of the application?
+   Are any code patterns intentionally broken? Is similar code different in some aspect? Why?
    Do any procedures need to be changed?
    Is there any deployment risk? How to rollback if something goes wrong?
 
@@ -204,6 +209,7 @@ Use the following subagents:
 - system architect (keep application well-architected, simple to reason about, easy to change)
 - backend engineer (keep backend components high-quality, stable, bug-free)
 - frontend engineer (keep frontend components high-quality, readable)
+- DX engineer (keep developer experience smooth, ensure discoverability and usability for developers)
 - QA engineer (tester, TDD practitioner, keep critical components of the application tested, keep tests small and atomic)
 - DevOps engineer / SRE (keep application easy to deploy, simple to operate)
 - security specialist (both red & blue team, keep application secure)
