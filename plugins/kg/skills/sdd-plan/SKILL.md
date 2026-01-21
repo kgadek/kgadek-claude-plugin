@@ -206,7 +206,7 @@ Use the following subagents:
 - frontend engineer (keep frontend components high-quality, readable)
 - QA engineer (tester, TDD practitioner, keep critical components of the application tested, keep tests small and atomic)
 - DevOps engineer / SRE (keep application easy to deploy, simple to operate)
-- secrity specialist (both red & blue team, keep application secure)
+- security specialist (both red & blue team, keep application secure)
 
 
 ## User request
